@@ -1,7 +1,7 @@
 {
   "name": "heroku-schedule-test",
   "version": "0.0.1",
-  "description": "",
+  "description": "Heroku scheduler/Process scheduler sample",
   "main": "app.js",
   "scripts": {
     "worker": "nf start worker",
