@@ -1,0 +1,15 @@
+{
+  "name": "heroku-schedule-test",
+  "description": "Heroku scheduler/Process scheduler sample",
+  "keywords": [
+    "node",
+    "heroku",
+    "monitor",
+    "cron"
+  ],
+  "addons": [
+    "scheduler:standard",
+    "process-scheduler:pet-project",
+    "papertrail:choklad"
+  ]
+}
