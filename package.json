@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "worker": "nf start worker",
+    "cron": "nf start cron"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,9 +15,6 @@
   ],
   "author": "Umi Uyura",
   "license": "MIT",
-  "scripts": {
-    "start": "nf start"
-  },
   "devDependencies": {
     "foreman": "^1.4.1"
   }
