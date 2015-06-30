@@ -5,5 +5,5 @@
 console.log('*** Cron start ***');
 
 setTimeout(function() {
-  console.log('*** Cron Action ... ***');
+  console.log('*** Cron action ... ***');
 }, 60000);

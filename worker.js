@@ -5,5 +5,5 @@
 console.log('*** Worker start ***');
 
 setInterval(function() {
-  console.log('*** Processing ... ***');
+  console.log('*** Worker processing ... ***');
 }, 60000);
